@@ -1,0 +1,36 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 4000
+safe: true
+description: > # this means to ignore newlines until "baseurl:"
+	Samantha Hardin
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+url: http://shardi2.github.io/
+baseurl: "/"
+title: Samantha Hardin
+name: Samantha Hardin
+#email: 
+#email_full: mailto:skinneda@oregonstate.edu
+#website: drenniks.github.io
+#website_full: https://drenniks.github.io
+#github: drenniks
+#twitter: drenniks
+#google_maps: 'https://maps.app.goo.gl/kT3pLhFUsp6mvhFe6'
+#address:
+#  building: Weniger Hall
+#  street: 301 Weniger Hall, Office 411
+#  postcode: 97331
+#  city: Corvallis, OR
+#  country: USA
+#google_analytics: UA-122314908-1
+
+# needed for travis-ci build
+exclude: [vendor]
+permalink: /blog/:year/:month/:day/:title
